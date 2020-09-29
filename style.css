@@ -1,0 +1,99 @@
+body {
+    background: #c7b39b url(background.jpg); /* Цвет фона и путь к файлу */
+    color: #fff; /* Цвет текста */
+    background-size: cover;
+  }
+
+ul {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+ul li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 20px; /* Отступ слева */
+    border: 3px solid #FFF; /* Рамка вокруг текста */
+    padding: 10px; /* Поля вокруг текста */
+    font-size: 18px;
+    font-family: "Times New Roman" monospace;
+}
+
+a {
+    color: #008000; /* Цвет обычной ссылки */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+      font-weight: bold;
+}
+a:visited {
+    color: #123456; /* Цвет посещённой ссылки */
+}
+a:hover {
+    color: #a92135; /* Цвет ссылки при наведении на нее курсора мыши */
+    text-decoration: underline; /* Добавляем подчеркивание */
+}
+
+.header-center {
+  background-color: #acacac;
+  padding: 15px;
+  margin: 20px;
+}
+
+h1 {
+  font-family: 'Times New Roman', serif;
+  color: #ff0066;
+  font-weight: lighter;
+}
+
+p {
+  font-size: 20px;
+}
+
+p.style0 {
+  font-family: Times, serif;
+  color: #816152;
+  text-align: right;
+  text-transform: capitalize;
+}
+
+p.style1 {
+  font-family: Arial, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+p.style2 {
+  font-family: Georgia, serif;
+  color: #456392;
+  text-decoration: underline;
+  text-align: center;
+}
+
+p.style0_drum {
+  font-family: Times, serif;
+  color: #932558;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+p.style2_drum {
+  font-family: Times, serif;
+  color: #123456;
+  text-align: center;
+  text-transform: lowercase;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+p.style3_drum {
+  font-family: Times, serif;
+  color: #654321;
+  text-align: right;
+  text-decoration: overline;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content {
+  margin-left: 50px;
+  margin-right: 50px;
+}
